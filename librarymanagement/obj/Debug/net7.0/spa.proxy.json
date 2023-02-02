@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:44420",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\GouthamiRepository\\librarymanagement\\librarymanagement\\angular\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

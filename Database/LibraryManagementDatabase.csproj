@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\LibraryManagementDatabase.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\LibraryManagementDatabase.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net7.0\Database.deps.json" />
+    <Content Include="bin\Debug\net7.0\LibraryManagementDatabase.deps.json" />
+    <Content Include="obj\Debug\net7.0\LibraryManagementDatabase.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\LibraryManagementDatabase.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+	 
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\LibraryManagement.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net7.0\Database.dll" />
+    <None Include="bin\Debug\net7.0\Database.pdb" />
+    <None Include="bin\Debug\net7.0\LibraryManagement.Models.dll" />
+    <None Include="bin\Debug\net7.0\LibraryManagement.Models.pdb" />
+    <None Include="bin\Debug\net7.0\LibraryManagementDatabase.dll" />
+    <None Include="bin\Debug\net7.0\LibraryManagementDatabase.pdb" />
+    <None Include="LibraryManagementDatabase.csproj" />
+    <None Include="obj\Debug\net7.0\LibraryManagementDatabase.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagementDatabase.assets.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagementDatabase.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagementDatabase.csproj.CopyComplete" />
+    <None Include="obj\Debug\net7.0\LibraryManagementDatabase.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagementDatabase.dll" />
+    <None Include="obj\Debug\net7.0\LibraryManagementDatabase.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\LibraryManagementDatabase.pdb" />
+    <None Include="obj\Debug\net7.0\refint\LibraryManagementDatabase.dll" />
+    <None Include="obj\Debug\net7.0\ref\LibraryManagementDatabase.dll" />
+    <None Include="obj\Debug\net7.0\_IsIncrementalBuild" />
+    <None Include="obj\LibraryManagementDatabase.csproj.nuget.g.props" />
+    <None Include="obj\LibraryManagementDatabase.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>

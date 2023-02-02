@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:44420",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Projects\\librarymanagement\\angular\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

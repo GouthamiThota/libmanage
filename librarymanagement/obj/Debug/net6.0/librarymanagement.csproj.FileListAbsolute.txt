@@ -1,0 +1,9 @@
+C:\Projects\librarymanagement\obj\Debug\net6.0\librarymanagement.csproj.AssemblyReference.cache
+C:\Projects\librarymanagement\obj\Debug\net6.0\spa.proxy.json
+C:\Projects\librarymanagement\obj\Debug\net6.0\librarymanagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\librarymanagement\obj\Debug\net6.0\librarymanagement.AssemblyInfoInputs.cache
+C:\Projects\librarymanagement\obj\Debug\net6.0\librarymanagement.AssemblyInfo.cs
+C:\Projects\librarymanagement\obj\Debug\net6.0\librarymanagement.csproj.CoreCompileInputs.cache
+C:\Projects\librarymanagement\obj\Debug\net6.0\librarymanagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\librarymanagement\obj\Debug\net6.0\librarymanagement.RazorAssemblyInfo.cache
+C:\Projects\librarymanagement\obj\Debug\net6.0\librarymanagement.RazorAssemblyInfo.cs

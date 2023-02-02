@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\LibraryManagement.Services.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\LibraryManagement.Services.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net7.0\LibraryManagement.Services.deps.json" />
+    <Content Include="obj\Debug\net7.0\LibraryManagement.Services.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\LibraryManagement.Services.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net7.0\LibraryManagement.Models.dll" />
+    <None Include="bin\Debug\net7.0\LibraryManagement.Models.pdb" />
+    <None Include="bin\Debug\net7.0\LibraryManagement.Repository.dll" />
+    <None Include="bin\Debug\net7.0\LibraryManagement.Repository.pdb" />
+    <None Include="bin\Debug\net7.0\LibraryManagement.Services.dll" />
+    <None Include="bin\Debug\net7.0\LibraryManagement.Services.pdb" />
+    <None Include="bin\Debug\net7.0\LibraryManagementDatabase.dll" />
+    <None Include="bin\Debug\net7.0\LibraryManagementDatabase.pdb" />
+    <None Include="LibraryManagement.Services.csproj" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.assets.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.csproj.CopyComplete" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.dll" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Services.pdb" />
+    <None Include="obj\Debug\net7.0\refint\LibraryManagement.Services.dll" />
+    <None Include="obj\Debug\net7.0\ref\LibraryManagement.Services.dll" />
+    <None Include="obj\Debug\net7.0\_IsIncrementalBuild" />
+    <None Include="obj\LibraryManagement.Services.csproj.nuget.g.props" />
+    <None Include="obj\LibraryManagement.Services.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\LibraryManagement.Models.csproj" />
+    <ProjectReference Include="..\Repository\LibraryManagement.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

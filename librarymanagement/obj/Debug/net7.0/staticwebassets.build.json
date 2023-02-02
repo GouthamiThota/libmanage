@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "bYEzBOUeLDQZmZdmY7/WTWRqW7pASKS9WsD9IeaXYjY=",
+  "Source": "LibraryManagement.Web",
+  "BasePath": "_content/LibraryManagement.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LibraryManagement.Web\\wwwroot",
+      "Source": "LibraryManagement.Web",
+      "ContentRoot": "C:\\GouthamiRepository\\librarymanagement\\librarymanagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\GouthamiRepository\\librarymanagement\\librarymanagement\\wwwroot\\favicon.ico",
+      "SourceId": "LibraryManagement.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GouthamiRepository\\librarymanagement\\librarymanagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement.Web",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

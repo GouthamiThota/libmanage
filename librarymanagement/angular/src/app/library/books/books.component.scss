@@ -1,0 +1,24 @@
+.delete {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+.delbtn {
+  color: aliceblue;
+  background-color: rgb(225, 17, 17);
+  padding: 2px;
+  width: 80px;
+}
+.pagination {
+  text-align: center;
+  width: unset;
+}
+.cls {
+  border-radius: 5px;
+  background-color: rgb(178, 193, 207);
+  
+}
+.cls:hover{
+    background-color: rgb(57, 64, 214);
+    color: aliceblue;
+}

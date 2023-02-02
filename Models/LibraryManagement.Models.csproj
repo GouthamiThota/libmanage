@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\LibraryManagement.Models.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\LibraryManagement.Models.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net7.0\LibraryManagement.Models.deps.json" />
+    <Content Include="bin\Debug\net7.0\LibraryManagement.Models.runtimeconfig.json" />
+    <Content Include="obj\Debug\net7.0\LibraryManagement.Models.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\LibraryManagement.Models.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net7.0\LibraryManagement.Models.dll" />
+    <None Include="bin\Debug\net7.0\LibraryManagement.Models.pdb" />
+    <None Include="LibraryManagement.Models.csproj" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Models.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Models.assets.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Models.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Models.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Models.dll" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Models.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Models.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net7.0\LibraryManagement.Models.pdb" />
+    <None Include="obj\Debug\net7.0\refint\LibraryManagement.Models.dll" />
+    <None Include="obj\Debug\net7.0\ref\LibraryManagement.Models.dll" />
+    <None Include="obj\Debug\net7.0\_IsIncrementalBuild" />
+    <None Include="obj\LibraryManagement.Models.csproj.nuget.g.props" />
+    <None Include="obj\LibraryManagement.Models.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.2" />
+    <PackageReference Include="SyrianBallaS.AutoMapper.Extensions.Microsoft.DependencyInjection.Signed" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+:host {
+  display: grid;
+  place-items: center;
+}
+form {
+  //   display: grid;
+  width: 200px;
+  height: 200px;
+
+  margin-top: 10px;
+}
+.form {
+  margin-left: -100px;
+}
+.btn {
+  margin-top: 10px;
+  margin-left: 30%;
+}

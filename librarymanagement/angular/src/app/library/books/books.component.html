@@ -1,0 +1,36 @@
+<div align="center" class="body table-responsive">
+  <input type="text" [(ngModel)]="title" />
+  <button class="cls btn-default mb-4 mt-2" (click)="searchTitle()">
+    search
+  </button>
+
+  <table class="table borderless">
+    <tr>
+      <th class="border col-3 col-md-3 wd">Id</th>
+      <th class="border col-3 col-md-3">Title</th>
+      <th class="border col-3 col-md-3">Author</th>
+      <th class="border col-3 col-md-3">Action</th>
+    </tr>
+    <tr
+      *ngFor="
+        let b of books$
+          | paginate
+            : { itemsPerPage: size, currentPage: page, totalItems: TotalItems }
+      "
+    >
+      <td class="border col-3 col-md-3">{{ b.id }}</td>
+      <td class="border col-3 col-md-3">{{ b.title }}</td>
+      <td class="border col-3 col-md-3">{{ b.author }}</td>
+      <td class="delete border col-3 col-md-3">
+        <button type="button" class="delbtn" (click)="delete(b.id)">
+          Delete
+        </button>
+      </td>
+    </tr>
+    <br />
+    <div class="pagination">
+      <pagination-controls (pageChange)="onPageChange($event)">
+      </pagination-controls>
+    </div>
+  </table>
+</div>
